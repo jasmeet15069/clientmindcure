@@ -52,8 +52,9 @@ import PortfolioOutput from "./CustomizedPortfolio/PortfolioOutput";
 
 // import { Quiz } from "@mui/icons-material";
 function App() {
-  axios.defaults.baseURL = "http://localhost:5000";
+  // axios.defaults.baseURL = "http://localhost:5000";
 
+  axios.defaults.baseURL = "https://mindcureserver.vercel.app";
   const testimonies = [
     {
       name: "Joy singh",
